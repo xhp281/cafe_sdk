@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'cafe_sdk_Example' do
+  pod 'cafe_sdk', :path => '../'
+
+  target 'cafe_sdk_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

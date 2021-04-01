@@ -1,0 +1,31 @@
+PODS:
+  - cafe_sdk (0.1.0):
+    - naveridlogin-sdk-ios (~> 4.1.3)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - naveridlogin-sdk-ios (4.1.3)
+
+DEPENDENCIES:
+  - cafe_sdk (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - naveridlogin-sdk-ios
+
+EXTERNAL SOURCES:
+  cafe_sdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  cafe_sdk: fa1a7bcc93c95ec06d968c2225539b93f68c3a3c
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  naveridlogin-sdk-ios: b9d7c20677981177ed994ecb1c8c2b49f223277d
+
+PODFILE CHECKSUM: 0a6622118f63b905076d9aabc460950c4cecec22
+
+COCOAPODS: 1.10.1

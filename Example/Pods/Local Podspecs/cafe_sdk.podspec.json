@@ -1,0 +1,50 @@
+{
+  "name": "cafe_sdk",
+  "version": "0.1.0",
+  "summary": "韩国咖啡社区SDK封装，支持Swift.",
+  "description": "韩国咖啡社区SDK封装，支持Swift",
+  "homepage": "https://github.com/xhp281/cafe_sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xhp281": "xhp281@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xhp281/cafe_sdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "cafe_sdk/Classes/**/*",
+  "public_header_files": "cafe_sdk/Classes/CafeManager.h",
+  "static_framework": true,
+  "vendored_frameworks": [
+    "cafe_sdk/Classes/Vendor/NaverCafeSDK.framework"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "frameworks": [
+    "AVKit",
+    "AVFoundation",
+    "MobileCoreServices",
+    "SystemConfiguration",
+    "MediaPlayer",
+    "CoreMedia",
+    "AssetsLibrary",
+    "Security",
+    "ImageIO",
+    "QuartzCore",
+    "WebKit",
+    "SafariServices",
+    "ReplayKit"
+  ],
+  "dependencies": {
+    "naveridlogin-sdk-ios": [
+      "~> 4.1.3"
+    ]
+  }
+}
